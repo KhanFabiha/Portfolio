@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
   }
 
   .myVideo{
@@ -28,7 +30,29 @@
     }
   }
 
-  nav ol {
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 500px) {
+    
+  }
+
+  @media screen and (max-width: 800px) {
+  
+    
+  }
+
+
+
+
+
+
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,11 +63,11 @@
     width: 100%;
   }
 
-  nav ol li {
+  nav ul li {
     color: #703d2a;
   }
 
-  nav ol li a {
+  nav ul li a {
     float: right;
     display: block;
     color: white;
@@ -54,7 +78,7 @@
   }
 
   /* Change the link color to #111 (black) on hover */
-  nav ol li a:hover {
+  nav ul li a:hover {
     background-color: #33170c;
   }
 
