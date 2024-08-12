@@ -21,18 +21,18 @@
 
 
 .content {
-    font-size: 35px;
     margin-left: 20%;
     margin-top: 15%;
-    position: fixed;
+    position: relative;
     color: rgb(246, 237, 220);
+    padding-right:25px ;
   }
 
 
 
 .menu{
   cursor: pointer;  
-  margin-top: 40%;
+  margin-top: 25%;
   position: fixed;
   transform: rotate(-90deg);
   transform-origin: left top;
@@ -40,7 +40,7 @@
   }
 
 .menu a{
-  color: white;
+   color: rgb(246, 237, 220);
   font-size: 25px;
   text-decoration: none;
   padding: 14px 16px;
@@ -110,13 +110,60 @@ footer {
   }
 
 .menu a{
-  color: white;
+  color: rgb(246, 237, 220);
   font-size: 25px;
   text-decoration: none;
   padding: 14px 16px;
 }
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  
+ 
+}
+
+
+ footer a img {
+   width: 50px;
+   height: 50px;
+ }
+ 
+
+
+
+
+
+
+.email {
+  color: white;
+  text-decoration: none;
+  float: left;
+  padding: 20px ;
+  font-size: 25px;
+  
+  
+}
+.contact{
+float: right;
+}
+
 }
  
+
+
+
+
+
+
+
+
+
 
 
  @media screen and (max-width: 500px) {
@@ -124,16 +171,17 @@ footer {
   .content {
     font-size: 15px;
     margin-left: 20%;
-    margin-top: 60%;
-    position: fixed;
+    margin-top: 50%;
+    position: relative;
     color: rgb(246, 237, 220);
+    padding-bottom: 45px;
   }
 
 
 
 .menu{
   cursor: pointer;  
-  margin-top: 140%;
+  margin-top: 90%;
   position: fixed;
   transform: rotate(-90deg);
   transform-origin: left top;
@@ -141,10 +189,48 @@ footer {
   }
 
 .menu a{
-  color: white;
+  color: rgb(246, 237, 220);
   font-size: 20px;
   text-decoration: none;
   padding: 14px 16px;
+}
+
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  
+  
+ 
+}
+
+
+ footer a img {
+   width: 30px;
+   height: 30px;
+ }
+ 
+
+
+
+
+
+
+.email {
+  color: white;
+  text-decoration: none;
+  float: left;
+  padding: 20px ;
+  font-size: 20px;
+  
+  
+}
+.contact{
+float: right;
 }
 
 }
