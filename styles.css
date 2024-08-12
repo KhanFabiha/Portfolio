@@ -57,6 +57,7 @@ footer {
     color: white;
     text-align: center;
     
+    
    
   }
  
@@ -88,13 +89,13 @@ footer {
 
 
  
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 830px) {
 
   .content {
     font-size: 30px;
     margin-left: 20%;
     margin-top: 40%;
-    position: fixed;
+    position: relative;
     color: rgb(246, 237, 220);
   }
 
@@ -102,7 +103,7 @@ footer {
 
 .menu{
   cursor: pointer;  
-  margin-top: 80%;
+  margin-top: 45%;
   position: fixed;
   transform: rotate(-90deg);
   transform-origin: left top;
@@ -118,7 +119,7 @@ footer {
 
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -174,7 +175,7 @@ float: right;
     margin-top: 50%;
     position: relative;
     color: rgb(246, 237, 220);
-    padding-bottom: 45px;
+    padding-bottom: 50px;
   }
 
 
@@ -204,8 +205,6 @@ footer {
   color: white;
   text-align: center;
   
-  
- 
 }
 
 
