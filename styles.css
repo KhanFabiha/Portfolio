@@ -105,7 +105,8 @@ footer {
 }
 
 .show {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -217,7 +218,8 @@ float: right;
 }
 
 .show {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 }
@@ -305,8 +307,11 @@ float: right;
   padding-bottom: 35px;
 }
 
+
+
 .show {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 }
 
