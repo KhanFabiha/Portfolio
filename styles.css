@@ -67,11 +67,6 @@ footer {
    }
    
 
-
-
-
-
-
 .email {
     color: white;
     text-decoration: none;
@@ -86,28 +81,34 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
 .filterDiv {
   float: left;
   width: 400px;
   text-align: center;
-  margin: 30px;
   display: none;
   padding-right: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .show {
   display: flex;
   flex-direction: column;
 }
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  
+  
+  
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 
 
 
@@ -211,16 +212,18 @@ float: right;
   float: left;
   width: 100%;
   text-align: center;
-  margin: 30px;
   display: none;
   padding-right: 25px;
-  padding-bottom: 35px;
+  padding-bottom: 30%;
 }
 
 .show {
   display: flex;
   flex-direction: column;
 }
+
+
+
 
 }
  
@@ -239,7 +242,7 @@ float: right;
 
   .content {
     font-size: 15px;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-top: 50%;
     position: relative;
     color: rgb(246, 237, 220);
@@ -301,10 +304,9 @@ float: right;
   float: left;
   width: 100%;
   text-align: center;
-  margin: 30px;
   display: none;
   padding-right: 25px;
-  padding-bottom: 35px;
+  padding-bottom: 30%;
 }
 
 
@@ -313,16 +315,12 @@ float: right;
   display: flex;
   flex-direction: column;
 }
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
 
 
 
