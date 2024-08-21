@@ -26,7 +26,11 @@
     position: relative;
     color: rgb(246, 237, 220);
     padding-right:25px ;
+    
 
+  }
+  .content h1{
+    font-size: 39px;
   }
 
 
@@ -51,7 +55,7 @@
 
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -83,16 +87,14 @@ footer {
 
 .filterDiv {
   float: left;
-  width: 400px;
-  text-align: center;
   display: none;
   padding-right: 25px;
   padding-bottom: 50px;
 }
 
 .show {
-  display: flex;
-  flex-direction: column;
+  display: contents;
+  
 }
 
 
