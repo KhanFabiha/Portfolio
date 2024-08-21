@@ -174,7 +174,7 @@ footer {
 
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -212,16 +212,15 @@ float: right;
 
 .filterDiv {
   float: left;
-  width: 100%;
-  text-align: center;
+  
+  
   display: none;
   padding-right: 25px;
   padding-bottom: 30%;
 }
 
 .show {
-  display: flex;
-  flex-direction: column;
+  display: contents;
 }
 
 
@@ -244,7 +243,7 @@ float: right;
 
   .content {
     font-size: 15px;
-    margin-left: 18%;
+    margin-left: 20%;
     margin-top: 50%;
     position: relative;
     color: rgb(246, 237, 220);
@@ -271,7 +270,7 @@ float: right;
 
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -304,8 +303,6 @@ float: right;
 
 .filterDiv {
   float: left;
-  width: 100%;
-  text-align: center;
   display: none;
   padding-right: 25px;
   padding-bottom: 30%;
@@ -314,17 +311,8 @@ float: right;
 
 
 .show {
-  display: flex;
-  flex-direction: column;
+  display: contents;
 }
 
-
-
-
-
 }
-
-
-
-
 
