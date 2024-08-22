@@ -30,7 +30,7 @@
 
   }
   .content h1{
-    font-size: 39px;
+    font-size: 38px;
   }
 
 
@@ -246,6 +246,10 @@ float: right;
     position: relative;
     color: rgb(246, 237, 220);
     padding-bottom: 50px;
+  }
+
+  .content h1{
+    font-size: 20px;
   }
 
 
