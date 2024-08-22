@@ -32,6 +32,9 @@
   .content h1{
     font-size: 38px;
   }
+  .content p{
+    font-size: 28px;
+  }
 
 
 
@@ -102,6 +105,7 @@ footer {
   position: fixed;
   top: 0;
   z-index: 1;
+  
   
   
   
@@ -240,7 +244,7 @@ float: right;
  @media screen and (max-width: 500px) {
 
   .content {
-    font-size: 15px;
+    font-size: 17px;
     margin-left: 20%;
     margin-top: 50%;
     position: relative;
@@ -249,7 +253,10 @@ float: right;
   }
 
   .content h1{
-    font-size: 20px;
+    font-size: 22px;
+  }
+  .content p{
+    font-size: 17px;
   }
 
 
