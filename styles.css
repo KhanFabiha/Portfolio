@@ -134,6 +134,20 @@ footer {
 
 
 
+
+.row img{
+  
+  box-shadow: 0 6px 10px 5px rgba(129, 145, 199, 0.5);
+}
+.row:hover img{
+  
+  box-shadow: 0 8px 16px 5px rgba(76, 130, 237, 0.5);
+}
+
+
+
+
+
 .sticky {
   position: fixed;
   top: 0;
