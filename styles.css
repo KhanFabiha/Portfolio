@@ -135,17 +135,60 @@ footer {
 
 
 
-.row img{
-  
+.img1{
   box-shadow: 0 6px 10px 5px rgba(129, 145, 199, 0.5);
+  opacity: 0.5;
 }
-.row:hover img{
-  
+.img1:hover {
   box-shadow: 0 8px 16px 5px rgba(76, 130, 237, 0.5);
+  opacity: 1;
+}
+
+.img2{
+  box-shadow: 0 6px 10px 5px rgba(129, 145, 199, 0.5);
+  opacity: 0.5;
+}
+.img2:hover{
+  box-shadow: 0 8px 16px 5px rgba(76, 130, 237, 0.5);
+  opacity: 1;
 }
 
 
+.img3{
+  box-shadow: 0 6px 10px 5px rgba(129, 145, 199, 0.5);
+  opacity: 0.5;
+}
+.img3:hover{
+  box-shadow: 0 8px 16px 5px rgba(76, 130, 237, 0.5);
+  opacity: 1;
+}
 
+.img4{
+  box-shadow: 0 6px 10px 5px rgba(129, 145, 199, 0.5);
+  opacity: 0.5;
+}
+.img4:hover{
+  box-shadow: 0 8px 16px 5px rgba(76, 130, 237, 0.5);
+  opacity: 1;
+}
+
+.img5{
+  box-shadow: 0 6px 10px 5px rgba(129, 145, 199, 0.5);
+  opacity: 0.5;
+}
+.img5:hover{
+  box-shadow: 0 8px 16px 5px rgba(76, 130, 237, 0.5);
+  opacity: 1;
+}
+
+.img6{
+  box-shadow: 0 6px 10px 5px rgba(129, 145, 199, 0.5);
+  opacity: 0.5;
+}
+.img6:hover{
+  box-shadow: 0 8px 16px 5px rgba(76, 130, 237, 0.5);
+  opacity: 1;
+}
 
 
 .sticky {
