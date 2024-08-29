@@ -89,11 +89,9 @@ footer {
    
 
 .email {
-    color: white;
-    text-decoration: none;
-    float: left;
-    padding: 20px ;
-    font-size: 25px;
+  color: rgb(246, 237, 220);
+  text-decoration: none;
+  font-size: 30px;
     
     
 }
@@ -261,14 +259,12 @@ footer {
 
 
 .email {
-  color: white;
+  color: rgb(246, 237, 220);
   text-decoration: none;
-  float: left;
-  padding: 20px ;
   font-size: 25px;
-  
-  
 }
+
+
 .contact{
 float: right;
 }
@@ -284,8 +280,6 @@ float: right;
 .show {
   display: contents;
 }
-
-
 
 
 }
@@ -357,13 +351,10 @@ footer {
  
 
 .email {
-  color: white;
+  color: rgb(246, 237, 220);
   text-decoration: none;
-  float: left;
-  padding: 10px ;
   font-size: 20px;
-  
-  
+
 }
 .contact{
 float: right;
