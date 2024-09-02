@@ -192,6 +192,7 @@ footer {
 }
 
 
+
 .sticky {
   position: fixed;
   top: 0;
@@ -202,6 +203,8 @@ footer {
 .sticky + .content {
   padding-top: 60px;
 }
+
+
 
 
 
