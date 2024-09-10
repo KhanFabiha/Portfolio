@@ -43,8 +43,15 @@
     
 
   }
+  
   .content h1{
-    font-size: 35px;
+    font-size: 36px;
+  }
+  .content h2{
+    font-size: 28px;
+  }
+  .content h3{
+    font-size: 25px;
   }
  
   .content p{
@@ -222,12 +229,11 @@ footer {
 @media screen and (max-width: 830px) {
 
   .content {
-    font-size: 30px;
     margin-left: 20%;
     margin-top: 40%;
     position: relative;
     color: rgb(246, 237, 220);
-    padding-bottom: 50px;
+    
   }
 
 
@@ -309,12 +315,26 @@ footer {
  @media screen and (max-width: 500px) {
 
   .content {
-    font-size: 17px;
+    
     margin-left: 20%;
     margin-top: 50%;
     position: relative;
     color: rgb(246, 237, 220);
-    padding-bottom: 50px;
+    
+  }
+
+  .content h1{
+    font-size: 30px;
+  }
+  .content h2{
+    font-size: 25px;
+  }
+  .content h3{
+    font-size: 22px;
+  }
+ 
+  .content p{
+    font-size: 18px;
   }
 
 
